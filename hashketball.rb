@@ -54,9 +54,8 @@ def hashketball(game_hash)
                       :steals=>4,
                         :blocks=>11,
                           :slam_dunks=>1
-          },
+          }
                 ]
-    }
   },
     {:away=>
     {:team_name=>"Charlotte Hornets",
@@ -117,4 +116,5 @@ def hashketball(game_hash)
         }
       }
   }
+}
 end
