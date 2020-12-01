@@ -44,7 +44,7 @@ def hashketball(game_hash)
                       :steals=>3,
                         :blocks=>8,
                           :slam_dunks=>5
-          },
+          } ,
           {:player_name=>"Jason Terry",
             :number=>31,
               :shoe=>15,
@@ -57,9 +57,8 @@ def hashketball(game_hash)
           },
                 ]
     }
-  }
-    :away=>
-    {
+  },
+    {:away=>
     {:team_name=>"Charlotte Hornets"}
       {:colors=>["Turquoise, Purple"]}
       {:players=>
@@ -115,5 +114,6 @@ def hashketball(game_hash)
                           :slam_dunks=>12
           }               
         ]
+      }
   }
 end
