@@ -1,4 +1,4 @@
-def hashketball(game_hash)
+def hashketball
   game_hash={
     :home=>
     {:team_name=>"Brooklyn Nets",
